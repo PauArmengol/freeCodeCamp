@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The Best Branding Clothes</title>
+    <link rel="stylesheet" href="styles.css">
+    <h1 id="title">The Best Branding Clothes</h1>
+    <p id="description">We want to know about the brands you consider most valuable in fashion.</p>
+    </head>
+  <body>
+    <form id="survey-form">
+     <fieldset>
+       <label id="name-label">Enter Your Name: <input id="name" type="text" placeholder="Name" required /></label>
+       <label id="email-label">Enter Your Email: <input id="email" type="email" placeholder="Email@" required /></label>
+       <label id="number-label">Enter Your Age: <input id="number" type="number" min="18" max="100" placeholder="25" /></label>
+      </fieldset>
+
+      <fieldset>
+        <label>Choose which is your favorite brand:
+      <select id="dropdown">
+        <option>Please choose one</option>
+        <option>ZARA</option>
+        <option>MARIA CHER</option>
+        <option>H&M</option>
+        <option>FOREVER 21</option>
+        <option>NIKE</option>
+        <option>ADIDAS</option>
+       </select>
+      </fieldset>
+
+      <fieldset>
+        <label>Would you recommend this brand to to a friend?</label>
+        <label><input type="radio" class="inline" name="recommendation" value="Yes" />Yes, of course.</label>
+        <label><input type="radio" class="inline" name="recommendation" value="No at all" />No at all.</label>
+        <label><input type="radio" class="inline" name="recommendation" value="Maybe" />Maybe</label>
+      </fieldset>
+
+      <fieldset>
+        <label>What is the main reason why you choose this brand?</label>
+        <select id="dropdown">
+          <option>Please choose one</option>
+          <option>The quality</option>
+          <option>The price</option>
+          <option>Eco-friendly</option>
+          <option>Influencers</option>
+          <option>Is trendly</option>
+          </select>
+          </fieldset>
+
+      <fieldset>
+        <label>
+What clothes do you like to buy there?</label>
+        <label>
+          <input type="checkbox" value="denim" class="inline">Denim</input>
+          </label>
+        <label>
+          <input type="checkbox" value="coats" class="inline">Coats</input>
+          </label>
+        <label>
+          <input type="checkbox" value="dresses" class="inline">Dresses</input>
+          </label>
+        <label>
+          <input type="checkbox" value="shoesandsneakers" class="inline">Shoes and Sneakers</input>
+          </label>
+        <label>
+          <input type="checkbox" value="sportswear" class="inline">Sportswear</input>
+          </label>
+        <label>
+          <input type="checkbox" value="t-shirts" class="inline">T-shirts</input>
+          </label>
+        <label>
+          <input type="checkbox" value="hoodies" class="inline">Hoodies</input>
+          </label>
+          </fieldset>
+
+      <fieldset>
+        <label>Additional Comments:
+          <textarea name="add-coments" rows="3" cols="30"></textarea></label>
+      </fieldset>
+
+      <input id="submit" type="submit" value="Submit" />
+
+  </form>
+ </body>
+</html>
